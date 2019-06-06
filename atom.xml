@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://name-ricardo.github.io/./"/>
-  <updated>2019-06-04T10:56:26.259Z</updated>
+  <updated>2019-06-05T11:18:43.275Z</updated>
   <id>https://name-ricardo.github.io/./</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>随想初始化文章</title>
+    <link href="https://name-ricardo.github.io/./2019/06/04/%E9%9A%8F%E6%83%B3%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%87%E7%AB%A0./"/>
+    <id>https://name-ricardo.github.io/./2019/06/04/随想初始化文章./</id>
+    <published>2019-06-04T09:56:01.000Z</published>
+    <updated>2019-06-05T11:18:43.275Z</updated>
+    
+    <summary type="html">
+    
+      这是第一篇测试随想文章
+    
+    </summary>
+    
+      <category term="随想" scheme="https://name-ricardo.github.io/./categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+      <category term="测试" scheme="https://name-ricardo.github.io/./tags/%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="随想" scheme="https://name-ricardo.github.io/./tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>live初始化文章</title>
     <link href="https://name-ricardo.github.io/./2019/06/04/live%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%87%E7%AB%A0/"/>
     <id>https://name-ricardo.github.io/./2019/06/04/live初始化文章/</id>
     <published>2019-06-04T09:56:01.000Z</published>
-    <updated>2019-06-04T10:56:26.259Z</updated>
+    <updated>2019-06-05T11:18:45.987Z</updated>
     
     <summary type="html">
     
@@ -43,7 +65,7 @@
     <link href="https://name-ricardo.github.io/./2019/06/04/%E6%95%99%E7%A8%8B%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%87%E7%AB%A0/"/>
     <id>https://name-ricardo.github.io/./2019/06/04/教程初始化文章/</id>
     <published>2019-06-04T09:56:01.000Z</published>
-    <updated>2019-06-04T10:53:51.698Z</updated>
+    <updated>2019-06-05T11:18:46.819Z</updated>
     
     <summary type="html">
     
@@ -57,28 +79,6 @@
       <category term="测试" scheme="https://name-ricardo.github.io/./tags/%E6%B5%8B%E8%AF%95/"/>
     
       <category term="教程" scheme="https://name-ricardo.github.io/./tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随想初始化文章</title>
-    <link href="https://name-ricardo.github.io/./2019/06/04/%E9%9A%8F%E6%83%B3%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%87%E7%AB%A0./"/>
-    <id>https://name-ricardo.github.io/./2019/06/04/随想初始化文章./</id>
-    <published>2019-06-04T09:56:01.000Z</published>
-    <updated>2019-06-04T10:53:52.219Z</updated>
-    
-    <summary type="html">
-    
-      这是第一篇测试随想文章
-    
-    </summary>
-    
-      <category term="随想" scheme="https://name-ricardo.github.io/./categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-      <category term="测试" scheme="https://name-ricardo.github.io/./tags/%E6%B5%8B%E8%AF%95/"/>
-    
-      <category term="随想" scheme="https://name-ricardo.github.io/./tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   

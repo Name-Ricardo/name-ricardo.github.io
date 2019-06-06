@@ -135,8 +135,9 @@
       </div>
     </div>
   </figure>
-  <div id="video-container" style>
-    <video style="object-fit: fill" id="bgvideo" class="video" video-name src width="auto" preload="auto">
+ 
+  <!-- <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
     </video>
     <div id="video-btn" class="loadvideo videolive">
     </div>
@@ -144,7 +145,7 @@
     </div>
     <div class="video-stu">
     </div>
-  </div>
+  </div> -->
   <div class="headertop-down faa-float animated" onclick="headertop_down()">
     <span>
       <i class="fa fa-chevron-down" aria-hidden="true">
@@ -336,10 +337,10 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          
+          <h2 id="live初始化"><a href="#live初始化" class="headerlink" title="live初始化~"></a><em>live初始化~</em></h2>
         </div>
         <!-- .entry-content -->
-        <div class="single-reward">
+        <!-- <div class="single-reward">
           <div class="reward-open">赏<div class="reward-main">
               <ul class="reward-row">
                 <li class="alipay-code"><img src="https://cdn.jsdelivr.net/gh/Name-Ricardo/CDN@1.53/img/custom/donate/AliPayQR.jpg"></li>
@@ -347,7 +348,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
         <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
         <footer class="post-footer">
           <div class="post-tags">
@@ -362,9 +363,26 @@
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
+          
+            <div class="post-nepre half previous">
+          
+            <a href="/2019/06/04/随想初始化文章./" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/Name-Ricardo/CDN@1.53/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://hbimg.huabanimg.com/c43c2879ec67a1ffb7ae4fe29c20344778db6972a056e-s0ohtf_fw658" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                随想初始化文章</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
         
           
-            <div class="post-nepre full next">
+            <div class="post-nepre half next">
           
             <a href="/2019/06/04/教程初始化文章/" rel="next">
               <div class="background">
@@ -484,13 +502,13 @@
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
 <script type="text/javascript">
-/* <![CDATA[ */
+ /* <![CDATA[ */
 if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
   var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 } else {
   var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 }
-/* ]]> */
+/* ]]> */ 
 
 </script>
 <script>
@@ -716,6 +734,15 @@ $(document).ready(function() {
       }
     })
   });
-</script></div>
+</script>
+</div>
 </body>
+<!-- 数字雨 -->
+<canvas id="canvas" width="1440" height="900" ></canvas>
+<script type="text/javascript" src="/js/DigitalRain.js"></script>
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script type="text/javascript" src="/js/fireworks.js"></script>
+
 </html>

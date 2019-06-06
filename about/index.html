@@ -135,8 +135,9 @@
       </div>
     </div>
   </figure>
-  <div id="video-container" style>
-    <video style="object-fit: fill" id="bgvideo" class="video" video-name src width="auto" preload="auto">
+ 
+  <!-- <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
     </video>
     <div id="video-btn" class="loadvideo videolive">
     </div>
@@ -144,7 +145,7 @@
     </div>
     <div class="video-stu">
     </div>
-  </div>
+  </div> -->
   <div class="headertop-down faa-float animated" onclick="headertop_down()">
     <span>
       <i class="fa fa-chevron-down" aria-hidden="true">
@@ -315,17 +316,15 @@
   <div id="content" class="site-content">
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
       
-<div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">[さくら荘のhojun]</div>
+<div class="moe-mashiro" style="text-align:center; font-size: 50px; margin-bottom: 20px;">[Ricardo&NoNo~]</div>
 <div id="hello-mashiro" class="popcontainer" style="min-height: 300px; padding: 2px 6px 4px; background-color: rgba(242, 242, 242, 0.5); border-radius: 10px;">
   <center>
   <p>
   </p>
   <h4>
   与&nbsp;<ruby>
-  Mashiro&nbsp;<rp>
+  Ricardo&nbsp;<rp>
   （</rp>
-  <rt>
-  真（ま）白（しろ）</rt>
   <rp>
   ）</rp>
   </ruby>
@@ -342,15 +341,15 @@ function bot_ui_ini() {
     var botui = new BotUI("hello-mashiro");
     botui.message.add({
         delay: 800,
-        content: "Hi, there111👋"
+        content: "Hi👋"
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里是 Mashiro"
+            content: "这里是 Ricardo"
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个可爱的蓝孩子~"
+                content: "一个有趣的男孩子"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -379,39 +378,35 @@ function bot_ui_ini() {
         end = function () {
             botui.message.add({
                 delay: 600,
-                content: "![...](https://view.moezx.cc/images/2018/05/06/a1c4cd0452528b572af37952489372b6.md.jpg)"
+                content: "![...](http://ww1.sinaimg.cn/large/9150e4e5gy1frctyj6osxj202d029gld.jpg)"
             })
         },
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前就读于上海财经大学"
+                content: "目前在北京工作"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "向往技术却误入商科，但后来喜欢上了经济学…"
+                    content: "以后发展方向是武汉"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "因为数据分析也需要Coder嘛"
+                        content: "喜欢小动物(但还养不起"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主攻 R 语言和 Python，略懂 STATA，偶尔也折腾 HTML/CSS/JavaScript/PHP"
+                            content: "平时喜欢折腾,但也可以说得上是阿宅,游离在两者之间"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "研究的方向，是经济/金融方向的数据分析（data science）以及机器学习（machine learning）"
+                                content: "最近沉迷于减脂,希望有朝一日能做最骚气的IT男"
                             }).then(function () {
-                                botui.message.add({
-                                    delay: 1800,
-                                    content: "喜欢画画，希望有一天能够被称为画师"
-                                }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫Mashiro呢？ 🤔",
-                                            value: "why-mashiro"
+                                            text: "为什么站名叫Ricardo&NoNo呢？ 🤔",
+                                            value: "why-Ricardo"
                                         }]
                                     }).then(function (a) {
                                         thirdpart()
@@ -420,58 +415,48 @@ function bot_ui_ini() {
                             })
                         })
                     })
-                })
-            })
+               })
         },
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "Mashiro以及站名都来自一部动画，因为和主角有一样的爱好~ 如果有兴趣可以找找首页上的视频~"
+                content: "Ricardo取自龙族里诺诺第一次拉起落水狗路明非的时候顺便给他取的名字"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是白猫呢？ 🤔",
-                        value: "why-cat"
+                        text: "为什么是诺诺呢？ 🤔",
+                        value: "why-NoNo"
                     }]
                 }).then(function (a) {
                     fourthpart()
                 })
             })
         },
-        fourthpart = function () {
-            botui.message.add({
-                delay: 1E3,
-                content: "因为对GitHub有种执念… "
-            }).then(function () {
-                botui.message.add({
-                    delay: 1100,
-                    content: "而且我真的是猫控！"
-                }).then(function () {
-                    botui.action.button({
-                        delay: 1500,
-                        action: [{
-                            text: "域名有什么含意吗？(ง •_•)ง",
-                            value: "why-domain"
-                        }]
-                    }).then(function (a) {
-                        fifthpart()
-                    })
-                })
-            })
-        },
-        fifthpart = function () {
-            botui.message.add({
-                delay: 1E3,
-                content: "emmmm，看备案信息你就知道了=.= 本来想要zheng.xin的，但50万真买不起。。"
-            }).then(function () {
-                botui.message.add({
-                    delay: 1600,
-                    content: "那么，仔细看看我的博客吧？ ^_^"
-                })
-            })
-        } 
+     fourthpart = function () {
+
+botui.message.add({
+
+delay: 1E3,
+
+content: "因为对Ricardo和诺诺的感情有种执念 "
+
+}).then(function () {
+
+botui.message.add({
+
+delay: 1100,
+
+content: "不过现在已经多了很多名字了,什么小姑娘,小可乐🥤..... "
+
+})
+
+})
+
 }
+
+}
+
 bot_ui_ini()
 </script>
 
@@ -573,13 +558,13 @@ bot_ui_ini()
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
 <script type="text/javascript">
-/* <![CDATA[ */
+ /* <![CDATA[ */
 if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
   var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 } else {
   var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 }
-/* ]]> */
+/* ]]> */ 
 
 </script>
 <script>
@@ -805,6 +790,15 @@ $(document).ready(function() {
       }
     })
   });
-</script></div>
+</script>
+</div>
 </body>
+<!-- 数字雨 -->
+<canvas id="canvas" width="1440" height="900" ></canvas>
+<script type="text/javascript" src="/js/DigitalRain.js"></script>
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script type="text/javascript" src="/js/fireworks.js"></script>
+
 </html>

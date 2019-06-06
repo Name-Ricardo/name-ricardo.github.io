@@ -135,8 +135,9 @@
       </div>
     </div>
   </figure>
-  <div id="video-container" style>
-    <video style="object-fit: fill" id="bgvideo" class="video" video-name src width="auto" preload="auto">
+ 
+  <!-- <div id="video-container" style="">
+    <video style="object-fit: fill" id="bgvideo" class="video" video-name="" src="" width="auto" preload="auto">
     </video>
     <div id="video-btn" class="loadvideo videolive">
     </div>
@@ -144,7 +145,7 @@
     </div>
     <div class="video-stu">
     </div>
-  </div>
+  </div> -->
   <div class="headertop-down faa-float animated" onclick="headertop_down()">
     <span>
       <i class="fa fa-chevron-down" aria-hidden="true">
@@ -319,6 +320,39 @@
     <article class="post post-list" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="post-entry">
     <div class="feature">
+      <a href="/2019/06/04/随想初始化文章./">
+        <div class="overlay">
+          <i class="iconfont icon-text">
+          </i>
+        </div>
+        <img width="150" height="150" src="https://hbimg.huabanimg.com/c43c2879ec67a1ffb7ae4fe29c20344778db6972a056e-s0ohtf_fw658" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt>
+      </a>
+    </div>
+    <h1 class="entry-title">
+    <a href="/2019/06/04/随想初始化文章./">
+    随想初始化文章</a>
+    </h1>
+    <div class="p-time">
+      <i class="iconfont icon-time">
+      </i>
+    2019-6-4</div>
+    <p>
+    这是第一篇测试随想文章</p>
+    <footer class="entry-footer">
+      <div class="post-more">
+        <a href="/2019/06/04/随想初始化文章./">
+          <i class="iconfont icon-caidan">
+          </i>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <hr>
+</article>
+  
+    <article class="post post-list" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post-entry">
+    <div class="feature">
       <a href="/2019/06/04/live初始化文章/">
         <div class="overlay">
           <i class="iconfont icon-text">
@@ -373,39 +407,6 @@
     <footer class="entry-footer">
       <div class="post-more">
         <a href="/2019/06/04/教程初始化文章/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2019/06/04/随想初始化文章./">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://hbimg.huabanimg.com/c43c2879ec67a1ffb7ae4fe29c20344778db6972a056e-s0ohtf_fw658" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt>
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2019/06/04/随想初始化文章./">
-    随想初始化文章</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2019-6-4</div>
-    <p>
-    这是第一篇测试随想文章</p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2019/06/04/随想初始化文章./">
           <i class="iconfont icon-caidan">
           </i>
         </a>
@@ -493,13 +494,13 @@
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
 <script type="text/javascript">
-/* <![CDATA[ */
+ /* <![CDATA[ */
 if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
   var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"close"},"windowheight":"fixed","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 } else {
   var Poi = {"pjax":"1","movies":{"url": "https://cdn.jsdelivr.net/gh/honjun/hojun@1.2","name":"Unbroken.mp4","live":"open"},"windowheight":"auto","codelamp":"close","ajaxurl":"","order":"asc","formpostion":"bottom"};
 }
-/* ]]> */
+/* ]]> */ 
 
 </script>
 <script>
@@ -725,6 +726,15 @@ $(document).ready(function() {
       }
     })
   });
-</script></div>
+</script>
+</div>
 </body>
+<!-- 数字雨 -->
+<canvas id="canvas" width="1440" height="900" ></canvas>
+<script type="text/javascript" src="/js/DigitalRain.js"></script>
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script type="text/javascript" src="/js/fireworks.js"></script>
+
 </html>
